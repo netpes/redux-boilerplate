@@ -10,6 +10,7 @@ export function Counter() {
   // useDispatch hook is used to dispatch actions to the store.
   const dispatch = useDispatch()
 
+
  return (
    <div>
      <div>
@@ -29,6 +30,7 @@ export function Counter() {
        >
          Decrement
        </button>
+
      </div>
    </div>
  )
